@@ -9,6 +9,7 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.action_controller.forgery_protection_origin_check = false
   config.action_dispatch.trusted_proxies = [IPAddr.new('0.0.0.0/0')]
+  config.force_ssl = true
   # Code is not reloaded between requests.
   config.enable_reloading = false
 
